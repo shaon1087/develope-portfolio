@@ -20,6 +20,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 .nav-title {
   color: var(--Dark-01, #181818);
@@ -40,4 +41,42 @@ nav li {
 nav a {
   text-decoration: none;
   color: var(--Dark-02, #474747);
+}
+/* header part started */
+.header{
+  background: #FFF8F3;
+  background-image: url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  
+
+}
+.banner{
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ban-content{
+  max-width: 500px;
+}
+.banner .ban-pic{
+  width: 500px;
+
+}
+.ban-greeting{
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+.ban-title{
+  color: var(--Dark-01, #181818);
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.ban-p{
+  margin-bottom: 49px;
 }
