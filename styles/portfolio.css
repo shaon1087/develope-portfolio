@@ -129,9 +129,9 @@ main{
   font-weight: 700;
 }
 /* about part end here */
-.what{
-  padding-bottom: 160px;
-}
+/* .what{
+  margin-bottom: 560px;
+} */
 #what-dis{
   padding-bottom: 50px;
   padding: 0 150px;
@@ -160,3 +160,45 @@ main{
 /* about part end here */
 
 /* resume part from here */
+.resume{
+  padding-top: 160px;
+}
+.resume-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+  padding: 0 14px;
+}
+.edu-part > h3{
+  color: #474747;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+}
+.degree{
+  margin-bottom: 30px;
+}
+.degree-name{
+  color:  #474747;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+.degree-year{
+  color: #757575;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+.degree-dis{
+  color: #757575;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.download-cv{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 130px;
+}
+/* resume part end here */
