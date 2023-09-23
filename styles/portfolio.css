@@ -86,11 +86,12 @@ nav a {
 .ban-p{
   margin-bottom: 49px;
 }
+ /* about part started */
 main{
   max-width: 1140px;
   margin: 0 auto;
 }
- /* about part started */
+
 
 .about{
   padding: 130px;
@@ -103,7 +104,8 @@ main{
   color: #757575;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;;
+  font-weight: 400;
+  word-wrap: break-word;
 }
 .abt-info{
   display: flex;
@@ -117,7 +119,7 @@ main{
   color:#757575;
  font-size: 20px;
  font-style: normal;
- font-weight: 400;
+.skill-container400;
 
 }
 .info-head .info-des{
@@ -126,3 +128,35 @@ main{
   font-style: normal;
   font-weight: 700;
 }
+/* about part end here */
+.what{
+  padding-bottom: 160px;
+}
+#what-dis{
+  padding-bottom: 50px;
+  padding: 0 150px;
+}
+/* what part start here */
+.skill-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  gap: 24px;
+}
+.skill{
+  padding-top: 30px;
+  padding-left: 30px;
+
+}
+.skill-dis{
+  padding-right: 70px;
+  color: #757575;
+  font-size: 16px;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 28px;
+  word-wrap: break-word
+}
+/* about part end here */
+
+/* resume part from here */
