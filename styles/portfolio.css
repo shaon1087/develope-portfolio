@@ -119,8 +119,6 @@ main{
   color:#757575;
  font-size: 20px;
  font-style: normal;
-.skill-container400;
-
 }
 .info-head .info-des{
   color: #474747;
@@ -202,3 +200,44 @@ main{
   margin-bottom: 130px;
 }
 /* resume part end here */
+
+/* connect part start from here */
+footer{
+  display: flex;
+  background: #FFF8F3;
+  padding: 135px 230px;
+  gap: 115px;
+
+}
+.footer-item{
+  width: 50%;
+  gap: 115px;
+}
+.footer-title{
+  color: #181818;
+  text-align: left;
+  font-size: 35px;
+  font-weight: 700;
+
+}
+.section-dis{
+  color: #474747;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 30px 0;
+}
+.social-link > a{
+  padding-right: 24px;
+}
+.contact input[type="text"],.contact input[type="email"],textarea{
+   display: block;
+   margin-bottom: 25px;
+   border-radius: 5px;
+   background: #FFF;
+   color: #757575;
+   font-size: 16px;
+   font-weight: 400;
+   padding: 18px 350px 18px 30px;
+   border: 0;
+}
